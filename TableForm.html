@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+ 
+</head>
+<body>
+    <div id="tab">
+    <table>
+
+        <Caption><h1>Personal Detail Form</h1></Caption>
+        <thead>
+            <th>Name</th>
+            <th>Value</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                   <label for="Uname">Name</label> 
+                </td>
+                <td>
+                    <input type="text" id="Uname" name="userName"/>
+                </td>
+            </tr>
+            <tr >
+                <td>
+                    <label >Sex</label>
+                </td>
+                <td>
+                    <input type="radio"  name="Gen" value="Male" id="genm"/>
+                    <label for="genm">Male</label>
+                    <div id="genfemale">
+                    <input type="radio"  name="Gen" value="Female" id="genf"/>
+                    <label for="genf">Female</label>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="eye"> Eye Color</label></td>
+                <td> <select id="eye">
+                    <option value="Green">Green</option>
+                    <option value="Black">Black</option>
+                    <option value="Brown">Brown</option>
+                    <option value="Hazel">Hazel</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td><label>Check all That Apply </label></td>
+                <td>
+                    <input type="checkbox" value="6" name="height" id="hei"/>
+                    <label for="hei"> Over 6 feet Tall</label>
+                    <div>
+                        <input type="checkbox" value="6" name="height" id="hei200"/>
+                        <label for="hei200"> Over 200 pounds</label>
+                    </div>
+                </td>
+             
+            </tr>
+            <tr >
+                <td colspan="2" rowspan="5">
+                    <label for="tex" >Describe  your athelatic ability</label>
+                    <div>
+                        <textarea cols="70" rows="4" id="tex"></textarea>
+                    </div>
+                </td>
+            </tr>
+            
+          
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="2">
+                    <button type="submit">Submit my Info</button>
+                </td>
+            </tr>
+
+        </tfoot>
+      
+    </table>
+
+    <div id="but">
+        <button><a href="./TableForm.html" download>Download Code </a></button>
+    </div>
+</div>
+</body>
+</html>

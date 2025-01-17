@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+table
+    {
+        border:2px solid black;
+        border-collapse: collapse;
+        text-align: center;
+       
+    }
+    tr,td,th
+    {
+      border: 2px solid black;
+      padding: 10px;
+    }
+
+    #genfemale
+    {
+       
+        margin-left: 5px;
+    }
+    #tab
+    {
+      margin-left: 30%;
+      margin-top: 10%;
+    }
+    #but
+    {
+      margin-top: 50px;
+      margin-left: 230px;
+      
+    }
+    button a
+   {
+       text-decoration: none;
+   }
+    button
+    {
+      padding: 10px;
+      border-radius: 10px;
+    }
+    #Box img 
+    {
+        height: 60px;
+        width:60px;
+        border-radius: 100%;
+        position: absolute;
+        bottom:20px ;
+        /* top:800px;  the desktop  screen size is 700 px when you used this you will unable to see the box  */   
+        background-color: chartreuse;
+        
+        right: 20px;
+    }
+    #Box1 img 
+    {
+        height: 60px;
+        width:60px;
+        border-radius: 100%;
+        position: fixed;
+        bottom:20px ;
+        /* top:800px;  the desktop  screen size is 700 px when you used this you will unable to see the box  */   
+        background-color: chartreuse;
+        
+        right: 20px;
+    }
+
+    .container 
+    {
+      border: 2px solid greenyellow;
+      display: flex;
+      width: fit-content; /* Prevents full width */
+      
+    }
+    .box
+    {
+      height: 200px;
+      width: 300px;
+      background-color: aquamarine;
+      border: 3px solid black;
+    }
+    .main
+    {
+      display: flex;
+      border: 3px solid gold;
+      width: fit-content;/* Prevents full width */
+      
+    }
+    .bigBlock
+    {
+      height: 400px;
+      width: 400px;
+      background-color: bisque;
+      border: 2px solid salmon;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+     
+      
+      
+    }
+    .SmallBlock
+    {
+      height: 100px;
+      width: 100px;
+      background-color: black;
+    }
+.asideBlock
+{
+  height: 100px;
+  width: 500px;
+  background-color: blueviolet;
+  border: 1px solid oldlace;
+  flex-direction: column;
+}
